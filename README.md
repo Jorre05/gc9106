@@ -7,8 +7,8 @@ Code is a inspired by :<br>
 
 To use this repository as an external component in Esphome:
 
-external_components:<br>
 <pre>
+external_components:<br>
   - source: github://Jorre05/gc9106
     components: [ gc9106 ] 
 </pre>
