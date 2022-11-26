@@ -42,7 +42,7 @@ GC9106_MODEL = cv.enum(MODELS, upper=True, space="_")
 
 GC9106_SCHEMA = display.FULL_DISPLAY_SCHEMA.extend(
     {
-        cv.Required(CONF_MODEL): GC9106Model,
+        cv.Required(CONF_MODEL): GC9106_MODEL,
         cv.Optional(CONF_RESET_PIN): pins.gpio_output_pin_schema,
     }
 ).extend(cv.polling_component_schema("1s"))
