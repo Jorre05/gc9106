@@ -7,8 +7,8 @@
 namespace esphome {
 namespace gc9106 {
 
-static const uint8_t GC9106_TFTWIDTH_80 = 80;     // for mini^M
-static const uint8_t GC9106_TFTHEIGHT_160 = 160;  // for 1.8" and mini display^M
+static const uint8_t GC9106_TFTWIDTH_80 = 80;     // for mini
+static const uint8_t GC9106_TFTHEIGHT_160 = 160;  // for 1.8" and mini display
 
 class GC9106 : public display::DisplayBuffer,
                public spi::SPIDevice<spi::BIT_ORDER_MSB_FIRST, spi::CLOCK_POLARITY_LOW, spi::CLOCK_PHASE_LEADING,
